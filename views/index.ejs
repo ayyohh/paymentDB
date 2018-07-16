@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Chela+One|Libre+Barcode+128+Text" rel="stylesheet">
+  </head>
+  <body>
+    <h1 class="titles">payments</h1>
+
+    <a href="/balances/new">Add a Payment</a>
+    <% balances.forEach((balance) => { %>
+      <div>
+        <h4>• Amount:   $<%=balance.amount%></h4>
+        <a href="/balances/<%= balance.id %>">See more...</a>
+      </div>
+
+  <% }) %>
+
+  </body>
+</html>

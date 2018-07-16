@@ -1,0 +1,30 @@
+.titles {
+  text-align: center;
+  font-family: 'Libre Barcode 128 Text', cursive;
+  font-size: 150px;
+}
+
+a {
+  display: inline;
+  margin: 10px;
+  font-size: 20px
+}
+
+body {
+  text-align: center;
+  font-family: 'Chela One', cursive;
+  font-size: 35px;
+}
+
+.deleteButton {
+  border-radius: 12px;
+  background-color: gray;
+  border: none;
+  color: white;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  margin-bottom: 15px;
+  display: inline-block;
+  font-size: 16px
+}
