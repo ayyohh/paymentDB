@@ -9,6 +9,18 @@
   <body>
     <h1 class="titles">payments</h1>
 
+    <div>
+    <% const calcRemainingBalance = (arr) => { %>
+      <% let totalBalance = 1100; %>
+      <% for(let i = 0; i < arr.length; i++){ %>
+      <%    totalBalance = totalBalance - arr[i].amount; %>
+      <% } %>
+      <% return totalBalance; %>
+    <% } %>
+
+      <h4>Remaining Balance: $<%= calcRemainingBalance(balances); %></h4>
+    </div>
+
     <a href="/balances/new">Add a Payment</a>
     <% balances.forEach((balance) => { %>
       <div>
