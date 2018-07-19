@@ -1,11 +1,11 @@
 const mongoose = require('mongoose');
 mongoose.connect("mongodb://localhost/balance_app")
 mongoose.connection.on("connected", () => {
-	console.log("GOOD JOB");
+	console.log("connected to data BASS");
 });
 mongoose.connection.on("error", (err) => {
-	console.log("you done messed up");
+	console.log("fucking up");
 });
 mongoose.connection.on("disconnected", () => {
-	console.log("lost in space");
+	console.log("we gone");
 });

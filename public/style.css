@@ -1,17 +1,24 @@
+
+p {
+  font-size: 25px;
+  padding: 10px;
+}
+a {
+  display: inline;
+  font-size: 15px;
+  margin: 15px;
+}
+.remainBalance {
+  font-size: 40px;
+}
+
 .titles {
   text-align: center;
   font-family: 'Libre Barcode 128 Text', cursive;
   font-size: 150px;
 }
 
-a {
-  display: inline;
-  margin: 10px;
-  font-size: 20px
-}
-
 body {
-  text-align: center;
   font-family: 'Chela One', cursive;
   font-size: 35px;
 }
@@ -24,7 +31,7 @@ body {
   padding: 15px 30px;
   text-align: center;
   text-decoration: none;
-  margin-bottom: 15px;
+  margin-bottom: 50px;
   display: inline-block;
   font-size: 16px
 }
